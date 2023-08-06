@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { configuration } from './Config.js';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+          <p>
+          <strong>Welcome to my app! { configuration.foo }</strong>
+        </p>
       </header>
     </div>
   );
